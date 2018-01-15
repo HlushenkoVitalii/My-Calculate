@@ -38,6 +38,7 @@ function initOperator(operator) {
     if (state.num1 !== ' ' && state.operator !== ' ' && state.num2 !== ' ') {
         state.operator1 = operator;
          calculate();
+         debugger;
     }
 
     else if (state.num1 === ' ' && operator === "-") {
